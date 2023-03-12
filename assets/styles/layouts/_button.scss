@@ -1,0 +1,15 @@
+.btn a{
+  border: 2px solid $black1;
+  text-transform: uppercase;
+  width: 150px;
+  height: 45px;
+  @extend %center;
+  color: $black1;
+  font-size: clamp(0.625rem, 0.5823rem + 0.2439vw, 0.75rem);
+  font-weight: 400;
+  @include title;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

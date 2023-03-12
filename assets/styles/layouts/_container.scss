@@ -1,0 +1,11 @@
+.container {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px -19px 20px #c5c5c6;
+  max-width: 1100px;
+  display: block;
+  margin: 0 auto;
+  @media screen and (max-width:1290px) {
+    width: 85%;
+  }
+}
