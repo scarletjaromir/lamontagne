@@ -7,6 +7,7 @@ body::after {
   top: 0;
   opacity: 1;
   animation: fadeOut 3s forwards;
+  z-index: -1;
     @keyframes fadeOut {
       to {
         opacity: 0;
